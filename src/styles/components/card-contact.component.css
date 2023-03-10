@@ -1,0 +1,32 @@
+#c-card-contact {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+    background-color: blueviolet;
+    color: white;
+    margin: 10px 0
+}
+
+#c-card-contact > * {
+    flex: 1;
+    padding: 0 10px;
+}
+
+
+#c-card-contact > a {
+    display: flex;
+    flex: 0;
+    align-items: center;
+    height: 60px;
+    background-color: #340063;
+    text-decoration: none;
+}
+
+#c-card-contact > a:hover {
+    cursor: pointer;
+    background-color: #51009b;
+}
+
+#c-card-contact img {
+    height: 35px;
+}

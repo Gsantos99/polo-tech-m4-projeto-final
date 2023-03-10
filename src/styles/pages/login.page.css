@@ -1,0 +1,66 @@
+/* Pagina de Login */
+#p-login {
+  display: flex;
+  flex-direction: column;
+  max-width: 320px;
+  margin: 0 auto;
+}
+
+#p-login fieldset {
+  border: 0;
+  padding: 0;
+}
+
+#p-login input[type='radio'] {
+  margin-left: 0;
+  margin-right: 10px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+#p-login input:not(input[type='radio']),
+button {
+  display: block;
+  width: 100%;
+  box-sizing: border-box;
+  margin: 10px 0;
+}
+
+#p-login h1 {
+  color: lightcoral;
+}
+
+#p-login .container-agenda h1 {
+  color: lightcoral;
+}
+
+.container,
+.container-agenda {
+  padding: 30px;
+  border-radius: 15px;
+  margin: 50px auto;
+  background-color: #ffffff;
+  width: 300px;
+  height: 350px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+#p-login .container-agenda {
+  padding: 30px;
+}
+
+.subtitulo-cor {
+  color: rgb(255, 255, 255);
+  background-color: lightcoral;
+  padding: 5px;
+  border-radius: 5px;
+}
+
+#p-login button {
+  margin-top: 15px;
+  border-radius: 5px;
+}
